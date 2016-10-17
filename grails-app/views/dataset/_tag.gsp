@@ -1,0 +1,1 @@
+<f:field property="tags" />  <!--<i class="icon-custom icon-color-u fa fa-trash-o icon-sm" style="horiz-align: right "></i>-->
