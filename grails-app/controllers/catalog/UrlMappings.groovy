@@ -87,6 +87,10 @@ class UrlMappings {
             action = [GET: "show"]
         }
 
+        name datumresource: "/api/datum/$id(.$format)?"(controller: "datumresource", parseRequest: true) {
+            action = [GET: "show"]
+        }
+
         name datasetRDF: "/api/dataset/rdf/$id"{
             controller= "datasetresource"
             action="showrdf"
