@@ -54,6 +54,11 @@ class UrlMappings {
             action = 'terms'
         }
 
+        name api: "/api" {
+            controller = 'home'
+            action = 'api'
+        }
+
         name about: "/about-us" {
             controller = 'home'
             action = 'about'

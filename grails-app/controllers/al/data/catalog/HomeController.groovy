@@ -23,4 +23,8 @@ class HomeController {
     def about(){
 
     }
+
+    def api(){
+
+    }
 }
