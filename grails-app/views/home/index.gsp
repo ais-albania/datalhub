@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>HUB.DATA.AL</title>
+    <title>${grailsApplication.config.getProperty('al.data.catalog.site.name')}</title>
 
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
