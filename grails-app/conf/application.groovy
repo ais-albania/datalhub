@@ -44,5 +44,8 @@ al.data.catalog.parentFeed.title="ODA Latest"
 al.data.catalog.parentFeed.url="http://feeds.feedburner.com/OpenDataAlbaniaFeed"
 al.data.catalog.publicUrl = "https://hub.data.al"
 al.data.catalog.site.name= "Hub Data Albania"
+al.data.catalog.piwik.enable=1
+al.data.catalog.piwik.url="//vizita.data.al/"
+al.data.catalog.piwik.siteId=1
 
 
