@@ -14,7 +14,6 @@
 
     <asset:stylesheet src="application.css"/>
 
-    <asset:stylesheet src="font-awesome-all.css"/>
     <link rel='stylesheet' type='text/css'
           href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -22,7 +21,7 @@
     <g:layoutHead/>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="${assetPath(src:'favicon.ico')}">
 
 </head>
 
@@ -35,6 +34,7 @@
 </div><!--/End Wrapepr-->
 
 <asset:javascript src="application.js"/>
+<asset:deferredScripts/>
 
 </body>
 </html>

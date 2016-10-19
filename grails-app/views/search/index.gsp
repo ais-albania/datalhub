@@ -49,7 +49,7 @@
                             <ul class="list-unstyled list-inline blog-tags">
                                 <li ng-repeat="tag in item.tag">
                                     <i class="fa fa-tags"></i>
-                                    {{tag}}</li>
+                                    {{tag}}
                                 </li>
                                 {{item.geoGranularity}} <i class="fa fa-file-archive-o"></i>
                             </ul>
@@ -79,6 +79,7 @@
             </section>
 
         </div>
+    </div>
     </div>
 </body>
 </html>

@@ -9,9 +9,8 @@
 //= require bootstrap
 //= require plugins/jquery-migrate.min
 //= require plugins/back-to-top
-//= require plugins/smoothScroll
 //= require custom
-//=require plugins/jssocials.min.js
+//=require plugins/jssocials.min
 //= require app
 //= require_self
 

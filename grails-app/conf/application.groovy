@@ -46,4 +46,3 @@ al.data.catalog.publicUrl = "https://hub.data.al"
 al.data.catalog.site.name= "Hub Data Albania"
 
 
-

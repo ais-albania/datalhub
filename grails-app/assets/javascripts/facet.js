@@ -33,7 +33,7 @@ facetSearch.factory('Helpers', function ($http) {
 
 //---------------------------------------- CONTROLLER
 
-facetSearch.controller('MainCtrl', function ($scope, Helpers) {
+facetSearch.controller('MainCtrl', ["$scope", "Helpers", function ($scope, Helpers) {
     console.log($scope.queryPost);
 
     $scope.useFacets = {};
@@ -210,4 +210,4 @@ facetSearch.controller('MainCtrl', function ($scope, Helpers) {
 
         }, true);
     });
-});
+}]);

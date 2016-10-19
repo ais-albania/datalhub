@@ -4,7 +4,6 @@
     <meta name="layout" content="main"/>
     <title>${grailsApplication.config.getProperty('al.data.catalog.site.name')}</title>
 
-    <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
 <body>
 <g:render template="/layouts/search"/>

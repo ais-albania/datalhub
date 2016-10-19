@@ -3,7 +3,6 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <asset:stylesheet src="main.css"/>
     <asset:stylesheet src="jssocials/jssocials.css"/>
     <asset:stylesheet src="jssocials/jssocials-theme-minima"/>
 

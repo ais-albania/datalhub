@@ -3,6 +3,7 @@
 <head>
     <meta name="layout" content="main"/>
     <asset:stylesheet src="main.css"/>
+    <asset:javascript src="jquery-2.2.0.min.js" />
     <asset:javascript src="uploadr.manifest.js"/>
     <asset:stylesheet href="uploadr.manifest.css"/>
     <asset:javascript src="plugins/tinymce/tinymce.min.js" />
