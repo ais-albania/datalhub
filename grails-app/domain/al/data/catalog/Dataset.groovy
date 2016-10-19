@@ -3,7 +3,6 @@ package al.data.catalog
 
 class Dataset {
     String name
-    String name_en
     String description
 
     Organisation organisation
@@ -24,7 +23,6 @@ class Dataset {
 
     static constraints = {
         name blank: false, nullable: false
-        name_en nullable: true, blank: true
         description blank: true, nullable: true,type: 'text',size:0..2147483646, widget: 'textarea'
         organisation nullable: false, blank: false
         author nullable: false, blank: false

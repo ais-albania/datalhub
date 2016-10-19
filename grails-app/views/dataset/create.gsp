@@ -43,7 +43,6 @@
             <fieldset class="form">
                 <f:with bean="dataset">
                     <f:field property="name"/>
-                    <f:field property="name_en"/>
                     <f:field property="description"/>
                     <f:field property="organisation"/>
                     <f:field property="author"/>
