@@ -5,6 +5,7 @@
     <meta name="layout" content="main"/>
     <asset:stylesheet src="main.css"/>
     <asset:javascript src="uploadr.manifest.js"/>
+    <asset:javascript src="disabledatasetfields.js"/>
     <asset:stylesheet href="uploadr.manifest.css"/>
     <asset:javascript src="plugins/tinymce/tinymce.min.js" />
     <script>tinymce.init({ selector:'textarea' });</script>

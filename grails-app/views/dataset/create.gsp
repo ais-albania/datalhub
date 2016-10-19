@@ -6,6 +6,7 @@
     <asset:javascript src="jquery-2.2.0.min.js" />
     <asset:javascript src="uploadr.manifest.js"/>
     <asset:stylesheet href="uploadr.manifest.css"/>
+    <asset:javascript src="disabledatasetfields.js"/>
     <asset:javascript src="plugins/tinymce/tinymce.min.js" />
     <script>tinymce.init({ selector:'textarea' });</script>
     <g:set var="entityName" value="${message(code: 'dataset.label', default: 'Dataset')}"/>
