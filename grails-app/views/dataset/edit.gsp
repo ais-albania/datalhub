@@ -4,6 +4,7 @@
 <head>
     <meta name="layout" content="main"/>
     <asset:stylesheet src="main.css"/>
+    <asset:javascript src="jquery-2.2.0.min.js" />
     <asset:javascript src="uploadr.manifest.js"/>
     <asset:javascript src="disabledatasetfields.js"/>
     <asset:stylesheet href="uploadr.manifest.css"/>
