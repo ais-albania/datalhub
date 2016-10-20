@@ -32,7 +32,6 @@
 
     <g:render template="/layouts/footer"/>
 </div><!--/End Wrapepr-->
-${grailsApplication.config.getProperty('al.data.catalog.piwik.enable')}
 <asset:javascript src="application.js"/>
 <g:if test="${grailsApplication.config.getProperty('al.data.catalog.piwik.enable')=="1"}">
     <g:render template="/layouts/piwik" model="[url:grailsApplication.config.getProperty('al.data.catalog.piwik.url'), siteId:grailsApplication.config.getProperty('al.data.catalog.piwik.siteId')]" />
