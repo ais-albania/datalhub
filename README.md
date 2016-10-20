@@ -4,6 +4,10 @@ DATALHUB is an aplication that helps you manage and publish collections of data 
 It is developed to serve the needs of an institution to store and publish data, reports and other digital assets online. 
 DATALHUB provides a webinterface and an API for the representation of the data.
 
+Publishing Datasets
+-------
+The section on publishing datasets is moved to the [WIKI Page](https://github.com/ais-albania/datalhub/wiki)
+
 
 Installation
 ------------
@@ -48,7 +52,7 @@ The system has been tested with MySQL/MariaDB and H2 Database Engine(H2DB). It s
 
 By default, the production datasource comes with a H2DB configuration. No installations are needed, as this is coupled with the Grails. While H2DB is not deemed for production (by anonymous references), it is a good option to get you started. For a more stabel environment, you may consider MySQL or Postgres. You decide on the underlying persistence layer (database) through the application.yml file which can be found under: `datalhub/grails-app/conf´/`
 Scroll to production and switch the configuration with something like:
- ``          dataSource:
+           dataSource:
             pooled: true
             dbCreate: "update"
             url: "jdbc:mysql://localhost:3306/DBNAME?autoReconnect=true"
@@ -62,7 +66,7 @@ Scroll to production and switch the configuration with something like:
               maxActive: 50
               minIdle: 5
               maxIdle: 25
-              maxWait: 10000``
+              maxWait: 10000
 
 
 
