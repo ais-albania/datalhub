@@ -39,6 +39,9 @@ class UserController {
         }
 
         user.save flush:true
+        //Automatically assing new users as ADMIN until proper definition of ACL
+        def adminRole = Role.findByAuthority('ROLE_ADMIN')
+        UserRole.create user, adminRole
 
         request.withFormat {
             form multipartForm {
